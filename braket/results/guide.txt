@@ -1,0 +1,4 @@
+2021-12-17: first run -- 500 shots, 1 layer, XZX as observable => <XZX> = -0.12
+2021-12-23: 3 tasks for 0, 1 and 2 layers, each task 1000 shots,
+2022-07-27: 21 tasks for 0, 1 and 2 layers, each task 1000 shots, [XZX, IXX, XXI] as observables, both left and right alignment (includes fixed data from 2022-08-05)
+2022-08-05: re-do of 2022-07-27 tasks for 2 layers due to bug in code

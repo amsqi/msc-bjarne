@@ -1,0 +1,270 @@
+{
+    "braketSchemaHeader": {
+        "name": "braket.task_result.gate_model_task_result",
+        "version": "1"
+    },
+    "measurementProbabilities": {
+        "000000": 0.094,
+        "100000": 0.01,
+        "010000": 0.01,
+        "110000": 0.054,
+        "001000": 0.056,
+        "101000": 0.02,
+        "011000": 0.01,
+        "111000": 0.053,
+        "000100": 0.017,
+        "100100": 0.012,
+        "010100": 0.012,
+        "110100": 0.032,
+        "001100": 0.084,
+        "101100": 0.015,
+        "011100": 0.048,
+        "111100": 0.053,
+        "000010": 0.016,
+        "100010": 0.001,
+        "010010": 0.003,
+        "110010": 0.013,
+        "001010": 0.01,
+        "101010": 0.006,
+        "011010": 0.007,
+        "111010": 0.006,
+        "000110": 0.011,
+        "100110": 0.002,
+        "010110": 0.011,
+        "110110": 0.018,
+        "001110": 0.015,
+        "101110": 0.004,
+        "011110": 0.004,
+        "111110": 0.016,
+        "000001": 0.005,
+        "100001": 0.003,
+        "010001": 0.002,
+        "110001": 0.003,
+        "001001": 0.005,
+        "101001": 0.005,
+        "011001": 0.001,
+        "111001": 0.001,
+        "000101": 0.004,
+        "100101": 0.002,
+        "010101": 0.004,
+        "110101": 0.003,
+        "001101": 0.01,
+        "101101": 0.003,
+        "011101": 0.001,
+        "111101": 0.007,
+        "000011": 0.044,
+        "010011": 0.005,
+        "110011": 0.018,
+        "001011": 0.019,
+        "101011": 0.009,
+        "011011": 0.011,
+        "111011": 0.022,
+        "000111": 0.014,
+        "100111": 0.003,
+        "010111": 0.007,
+        "110111": 0.014,
+        "001111": 0.016,
+        "101111": 0.007,
+        "011111": 0.014,
+        "111111": 0.015
+    },
+    "measuredQubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "taskMetadata": {
+        "braketSchemaHeader": {
+            "name": "braket.task_result.task_metadata",
+            "version": "1"
+        },
+        "id": "arn:aws:braket:us-east-1:116240619675:quantum-task/7f363b48-6d2a-4785-9e95-ed3188e788c5",
+        "shots": 1000,
+        "deviceId": "arn:aws:braket:::device/qpu/ionq/ionQdevice",
+        "deviceParameters": {
+            "braketSchemaHeader": {
+                "name": "braket.device_schema.ionq.ionq_device_parameters",
+                "version": "1"
+            },
+            "paradigmParameters": {
+                "braketSchemaHeader": {
+                    "name": "braket.device_schema.gate_model_parameters",
+                    "version": "1"
+                },
+                "qubitCount": 6,
+                "disableQubitRewiring": false
+            }
+        },
+        "createdAt": "2022-07-27T11:59:01.315Z",
+        "endedAt": "2022-07-27T12:10:32.365Z",
+        "status": "COMPLETED"
+    },
+    "additionalMetadata": {
+        "action": {
+            "braketSchemaHeader": {
+                "name": "braket.ir.jaqcd.program",
+                "version": "1"
+            },
+            "instructions": [
+                {
+                    "angle": -1.5707963267948966,
+                    "targets": [
+                        0,
+                        1
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": 0.2617993877991494,
+                    "target": 0,
+                    "type": "rz"
+                },
+                {
+                    "angle": -1.3089969389957472,
+                    "target": 1,
+                    "type": "rz"
+                },
+                {
+                    "angle": 1.5707963267948966,
+                    "targets": [
+                        0,
+                        1
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -1.5707963267948966,
+                    "targets": [
+                        2,
+                        3
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": 0.2617993877991494,
+                    "target": 2,
+                    "type": "rz"
+                },
+                {
+                    "angle": -1.3089969389957472,
+                    "target": 3,
+                    "type": "rz"
+                },
+                {
+                    "angle": 1.5707963267948966,
+                    "targets": [
+                        2,
+                        3
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -1.5707963267948966,
+                    "targets": [
+                        4,
+                        5
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": 0.2617993877991494,
+                    "target": 4,
+                    "type": "rz"
+                },
+                {
+                    "angle": -1.3089969389957472,
+                    "target": 5,
+                    "type": "rz"
+                },
+                {
+                    "angle": 1.5707963267948966,
+                    "targets": [
+                        4,
+                        5
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -1.5707963267948966,
+                    "targets": [
+                        1,
+                        2
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -0.5235987755982988,
+                    "target": 2,
+                    "type": "rz"
+                },
+                {
+                    "angle": -0.5235987755982988,
+                    "target": 1,
+                    "type": "rz"
+                },
+                {
+                    "angle": 1.5707963267948966,
+                    "targets": [
+                        1,
+                        2
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -1.5707963267948966,
+                    "targets": [
+                        3,
+                        4
+                    ],
+                    "type": "xx"
+                },
+                {
+                    "angle": -0.5235987755982988,
+                    "target": 4,
+                    "type": "rz"
+                },
+                {
+                    "angle": -0.5235987755982988,
+                    "target": 3,
+                    "type": "rz"
+                },
+                {
+                    "angle": 1.5707963267948966,
+                    "targets": [
+                        3,
+                        4
+                    ],
+                    "type": "xx"
+                }
+            ],
+            "results": [
+                {
+                    "observable": [
+                        "x",
+                        "x",
+                        "i"
+                    ],
+                    "targets": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "type": "expectation"
+                }
+            ],
+            "basis_rotation_instructions": [
+                {
+                    "target": 2,
+                    "type": "h"
+                },
+                {
+                    "target": 3,
+                    "type": "h"
+                }
+            ]
+        }
+    }
+}

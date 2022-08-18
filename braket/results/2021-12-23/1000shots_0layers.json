@@ -1,0 +1,111 @@
+{
+    "braketSchemaHeader": {
+        "name": "braket.task_result.gate_model_task_result",
+        "version": "1"
+    },
+    "measurementProbabilities": {
+        "000": 0.313,
+        "100": 0.202,
+        "010": 0.003,
+        "110": 0.001,
+        "001": 0.273,
+        "101": 0.206,
+        "111": 0.002
+    },
+    "measuredQubits": [
+        0,
+        1,
+        2
+    ],
+    "taskMetadata": {
+        "braketSchemaHeader": {
+            "name": "braket.task_result.task_metadata",
+            "version": "1"
+        },
+        "id": "arn:aws:braket:us-east-1:116240619675:quantum-task/6ca85221-390b-45c5-8e68-9a0b3c09c459",
+        "shots": 1000,
+        "deviceId": "arn:aws:braket:::device/qpu/ionq/ionQdevice",
+        "deviceParameters": {
+            "braketSchemaHeader": {
+                "name": "braket.device_schema.ionq.ionq_device_parameters",
+                "version": "1"
+            },
+            "paradigmParameters": {
+                "braketSchemaHeader": {
+                    "name": "braket.device_schema.gate_model_parameters",
+                    "version": "1"
+                },
+                "qubitCount": 3,
+                "disableQubitRewiring": false
+            }
+        },
+        "createdAt": "2021-12-23T13:47:38.800Z",
+        "endedAt": "2021-12-23T13:54:41.021Z",
+        "status": "COMPLETED"
+    },
+    "additionalMetadata": {
+        "action": {
+            "braketSchemaHeader": {
+                "name": "braket.ir.jaqcd.program",
+                "version": "1"
+            },
+            "instructions": [
+                {
+                    "angle": 3.141592653589793,
+                    "target": 0,
+                    "type": "rz"
+                },
+                {
+                    "angle": -3.141592653589793,
+                    "target": 0,
+                    "type": "rz"
+                },
+                {
+                    "angle": 3.141592653589793,
+                    "target": 1,
+                    "type": "rz"
+                },
+                {
+                    "angle": -3.141592653589793,
+                    "target": 1,
+                    "type": "rz"
+                },
+                {
+                    "angle": 3.141592653589793,
+                    "target": 2,
+                    "type": "rz"
+                },
+                {
+                    "angle": -3.141592653589793,
+                    "target": 2,
+                    "type": "rz"
+                }
+            ],
+            "results": [
+                {
+                    "observable": [
+                        "x",
+                        "z",
+                        "x"
+                    ],
+                    "targets": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "type": "expectation"
+                }
+            ],
+            "basis_rotation_instructions": [
+                {
+                    "target": 0,
+                    "type": "h"
+                },
+                {
+                    "target": 2,
+                    "type": "h"
+                }
+            ]
+        }
+    }
+}
